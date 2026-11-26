@@ -8,7 +8,7 @@ We strictly adhere to a disciplined Software Configuration Management (SCM) stra
 
 ### Contribution Rules
 
-Before submitting a Pull Request to the repository, developers must verify that their feature branch is up-to-date with `main`. Ensure you run local linters manually using the command `npm run lint:check` and resolve any warnings before pushing your branch. A minimum of two approvals from the core engineering team is mandatory.
+Before submitting a Pull Request to the repository, developers must verify that their feature branch is up-to-date with `main`. Run local linters manually using `npm run lint:check` and resolve any warnings before pushing your branch. All automated pipeline checks, including ESLint validation, must pass successfully before a merge is permitted. A minimum of two approvals from the core engineering team is mandatory, at least one of which must come from a Senior Engineer.
 
 ### Debugging Standards
 
