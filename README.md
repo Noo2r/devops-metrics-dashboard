@@ -8,7 +8,7 @@ We strictly adhere to a disciplined Software Configuration Management (SCM) stra
 
 ### Contribution Rules
 
-Before submitting a Pull Request to the repository, make sure your changes are tested and reviewed.
+Before submitting a Pull Request to the repository, you must ensure that your working copy has been checked against the `main` baseline. A minimum of one peer review is required from a Senior Engineer. Furthermore, all automated pipeline checks, including ESLint validation, must pass successfully before a merge is permitted.
 
 ### Debugging Standards
 
